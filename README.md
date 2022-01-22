@@ -1,2 +1,2 @@
 # mobile-application
-Mobile Application Development Project
+Mobile Application Development Project - NSBM Green University Town
