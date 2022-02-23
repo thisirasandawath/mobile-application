@@ -23,7 +23,7 @@ class LoginActivity : AppCompatActivity() {
     private fun viewInitialization(){
         email = findViewById(R.id.Email)
         pwd = findViewById(R.id.Password)
-        val buttonJoin: Button = findViewById(R.id.signup)
+        //val buttonJoin: Button = findViewById(R.id.signup)
 
     }
     //checking if the input in form is valid
@@ -38,12 +38,12 @@ class LoginActivity : AppCompatActivity() {
             return false
         }
         //checking the proper email format
-        if (!isEmailValid(email.text.toString())) {
+        if (!isEmailValid(email.text.toString().trim())) {
             email.error = "Please Enter Valid Email"
             return false
         }
         //Check minimum password length
-        if(pwd.text.length<len){
+        if(pwd.text.trim().length<len){
             pwd.error="Password Length must be " + len + " characters"
             return false
         }
@@ -56,9 +56,6 @@ class LoginActivity : AppCompatActivity() {
     fun performSignUp(v: View) {
         if (validateInput()) {
 
-            // Input is valid, here send data to your server
-            //val email = email!!.text.toString()
-            //val password = pwd!!.text.toString()
             Toast.makeText(this@LoginActivity, "Login Success", Toast.LENGTH_SHORT).show()
             val intent = Intent(this, HomeActivity::class.java)
             startActivity(intent)

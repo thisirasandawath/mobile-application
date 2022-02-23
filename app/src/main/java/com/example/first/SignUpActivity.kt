@@ -45,16 +45,16 @@ class SignUpActivity : AppCompatActivity() {
             return false
         }
         //checking the proper email format
-        if (!isEmailValid(email.text.toString())) {
+        if (!isEmailValid(email.text.toString().trim())) {
             email.error = "Please Enter Valid Email"
             return false
         }
         //Check minimum password length
-        if(pwd.text.length<len){
+        if(pwd.text.trim().length<len){
             pwd.error="Password Length must be " + len + "characters"
             return false
         }
-        if(pwd.text.toString() != cpwd.text.toString()){
+        if(pwd.text.toString().trim() != cpwd.text.toString()){
             cpwd.error = "Please Enter Correct Password"
             return false
         }
