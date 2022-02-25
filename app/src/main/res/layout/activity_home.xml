@@ -32,7 +32,7 @@
         app:navGraph="@navigation/mobile_navigation" />
 
     <SearchView
-        android:id="@+id/searchView"
+        android:id="@+id/search"
         android:layout_width="307dp"
         android:layout_height="41dp"
         android:layout_marginBottom="32dp"
