@@ -10,12 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.First">
         <activity
-            android:name=".InfoActivity"
-            android:exported="false" />
-        <activity
-            android:name=".CommissionActivity"
-            android:exported="false" />
-        <activity
             android:name=".HomeActivity"
             android:exported="false"
             android:label="Home" />

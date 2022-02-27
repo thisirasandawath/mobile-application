@@ -8,17 +8,6 @@
     android:background="@drawable/background"
     tools:context=".HomeActivity">
 
-    <!--<Spinner
-        android:id="@+id/spinner"
-        android:layout_width="52dp"
-        android:layout_height="45dp"
-        android:layout_marginEnd="24dp"
-        android:spinnerMode="dropdown"
-        app:layout_constraintBottom_toTopOf="@+id/tableRow3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.2" />-->
-
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav_view"
         android:layout_width="410dp"
@@ -29,7 +18,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:menu="@menu/bottom_nav_menu" />
 
-    <SearchView
+    <!--<SearchView
         android:id="@+id/search"
         android:layout_width="307dp"
         android:layout_height="41dp"
@@ -40,7 +29,29 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.03" />
+        app:layout_constraintVertical_bias="0.03" />-->
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="303dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="40dp"
+        android:drawableLeft="@android:drawable/ic_menu_search"
+        android:drawableTint="@color/black"
+        android:ems="10"
+        android:hint="Search"
+        android:inputType="text"
+        android:padding="13dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/purple_500"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025"
+        tools:ignore="Autofill,HardcodedText,RtlHardcoded,UnusedAttribute" />
 
     <ImageButton
         android:id="@+id/user"
@@ -50,7 +61,7 @@
         android:background="#C1BDBD"
         app:layout_constraintBottom_toTopOf="@+id/textView8"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/search"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
@@ -210,6 +221,5 @@
         </LinearLayout>
 
     </HorizontalScrollView>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
