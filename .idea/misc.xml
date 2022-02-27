@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MAD/First/app/src/debug/res/xml/root_preferences.xml" value="0.17552083333333332" />
+        <entry key="..\:/MAD/First/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.19166666666666668" />
+        <entry key="..\:/MAD/First/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.19166666666666668" />
+        <entry key="..\:/MAD/First/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1" />
+        <entry key="..\:/MAD/First/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1" />
+        <entry key="..\:/MAD/First/app/src/main/res/drawable/ic_launcher_background.xml" value="0.19166666666666668" />
+        <entry key="..\:/MAD/First/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.1" />
+        <entry key="..\:/MAD/First/app/src/main/res/font/itim.xml" value="0.20572916666666666" />
+        <entry key="..\:/MAD/First/app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.11278447121820616" />
+        <entry key="..\:/MAD/First/app/src/main/res/layout-w936dp/content_scrolling.xml" value="0.131640625" />
+        <entry key="..\:/MAD/First/app/src/main/res/layout/activity_commission.xml" value="0.17552083333333332" />
+        <entry key="..\:/MAD/First/app/src/main/res/layout/activity_first.xml" value="0.25" />
+        <entry key="..\:/MAD/First/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/MAD/First/app/src/main/res/layout/activity_info.xml" value="0.165" />
+        <entry key="..\:/MAD/First/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/MAD/First/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/MAD/First/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="..\:/MAD/First/app/src/main/res/layout/activity_user.xml" value="0.25" />
+        <entry key="..\:/MAD/First/app/src/main/res/layout/content_scrolling.xml" value="0.165" />
+        <entry key="..\:/MAD/First/app/src/main/res/layout/fragment_dashboard.xml" value="0.1" />
+        <entry key="..\:/MAD/First/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/MAD/First/app/src/main/res/layout/fragment_notifications.xml" value="0.17552083333333332" />
+        <entry key="..\:/MAD/First/app/src/main/res/layout/login.xml" value="0.23703703703703705" />
+        <entry key="..\:/MAD/First/app/src/main/res/layout/settings_activity.xml" value="0.25" />
+        <entry key="..\:/MAD/First/app/src/main/res/layout/signup.xml" value="0.23703703703703705" />
+        <entry key="..\:/MAD/First/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
+        <entry key="..\:/MAD/First/app/src/main/res/menu/menu_info.xml" value="0.335" />
+        <entry key="..\:/MAD/First/app/src/main/res/xml/root_preferences.xml" value="0.25" />
+        <entry key="..\:/MAD/First/app/src/release/res/xml/root_preferences.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/KETHAKA/Desktop/MAd1/mobile-application-master/app/src/main/res/layout/activity_customer_dashboard.xml" value="0.18385416666666668" />
+        <entry key="..\:/Users/KETHAKA/Desktop/MAd1/mobile-application-master/app/src/main/res/layout/activity_seller_dashboard.xml" value="0.18385416666666668" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
