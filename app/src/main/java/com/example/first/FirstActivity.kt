@@ -7,7 +7,7 @@ import android.os.Handler
 
 class FirstActivity : AppCompatActivity() {
     // This is the loading time of the splash screen
-    private val SPLASH_TIME_OUT:Long = 2000 // 1/3 sec
+    private val spTime:Long = 2000 // 1/3 sec
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_first)
@@ -17,11 +17,11 @@ class FirstActivity : AppCompatActivity() {
             // This method will be executed once the timer is over
             // Start your app main activity
 
-            startActivity(Intent(this,LoginActivity::class.java))
+            startActivity(Intent(this,HomeActivity::class.java))
 
             // close this activity
             finish()
-        }, SPLASH_TIME_OUT)
+        }, spTime)
     }
 
 }

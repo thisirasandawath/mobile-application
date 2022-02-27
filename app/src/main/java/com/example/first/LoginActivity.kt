@@ -23,7 +23,6 @@ class LoginActivity : AppCompatActivity() {
     private fun viewInitialization(){
         email = findViewById(R.id.Email)
         pwd = findViewById(R.id.Password)
-        //val buttonJoin: Button = findViewById(R.id.signup)
 
     }
     //checking if the input in form is valid
@@ -53,7 +52,7 @@ class LoginActivity : AppCompatActivity() {
         return Patterns.EMAIL_ADDRESS.matcher(email).matches()
     }
     // Hook Click Event
-    fun performSignUp(v: View) {
+    fun performUserLogin(v: View) {
         if (validateInput()) {
 
             Toast.makeText(this@LoginActivity, "Login Success", Toast.LENGTH_SHORT).show()
@@ -63,6 +62,18 @@ class LoginActivity : AppCompatActivity() {
         else
             Toast.makeText(this@LoginActivity,"LOGIN UNSUCCESSFUL", Toast.LENGTH_LONG).show()
     }
+
+    fun performSellerLogin(v: View) {
+        if (validateInput()) {
+
+            Toast.makeText(this@LoginActivity, "Login Success", Toast.LENGTH_SHORT).show()
+            val intent = Intent(this, UserActivity::class.java)
+            startActivity(intent)
+        }
+        else
+            Toast.makeText(this@LoginActivity,"LOGIN UNSUCCESSFUL", Toast.LENGTH_LONG).show()
+    }
+
 
     fun goToSignup(v: View) {
     val intent = Intent(this, SignUpActivity::class.java)

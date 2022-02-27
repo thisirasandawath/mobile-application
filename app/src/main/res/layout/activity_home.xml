@@ -1,48 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/background"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".HomeActivity">
+
+    <!--<Spinner
+        android:id="@+id/spinner"
+        android:layout_width="52dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="24dp"
+        android:spinnerMode="dropdown"
+        app:layout_constraintBottom_toTopOf="@+id/tableRow3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2" />-->
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav_view"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="0dp"
-        android:layout_marginEnd="0dp"
+        android:layout_width="410dp"
+        android:layout_height="48dp"
         android:background="?android:attr/windowBackground"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:menu="@menu/bottom_nav_menu" />
 
-    <fragment
-        android:id="@+id/nav_host_fragment_activity_user"
-        android:name="androidx.navigation.fragment.NavHostFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:defaultNavHost="true"
-        app:layout_constraintBottom_toTopOf="@id/nav_view"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:navGraph="@navigation/mobile_navigation" />
-
     <SearchView
         android:id="@+id/search"
         android:layout_width="307dp"
         android:layout_height="41dp"
+        android:layout_marginStart="16dp"
         android:layout_marginBottom="32dp"
         android:background="#C1BDBD"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/user"
-        app:layout_constraintHorizontal_bias="0.78"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.022" />
+        app:layout_constraintVertical_bias="0.03" />
+
+    <ImageButton
+        android:id="@+id/user"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="#C1BDBD"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toEndOf="@+id/search"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_baseline_person_24" />
 
     <TextView
         android:id="@+id/textView8"
@@ -140,19 +152,20 @@
     </TableRow>
 
     <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
         android:layout_width="346dp"
         android:layout_height="114dp"
         android:layout_marginStart="33dp"
         android:layout_marginTop="11dp"
         android:layout_marginEnd="26dp"
         android:layout_marginBottom="89dp"
+        android:fillViewport="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10"
-        app:layout_constraintVertical_bias="0.0"
-        android:fillViewport="true">
+        app:layout_constraintVertical_bias="0.0">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -163,46 +176,40 @@
                 android:id="@+id/imageView5"
                 android:layout_width="173dp"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/beauty"
-                android:layout_margin="5dp"/>
+                android:layout_margin="5dp"
+                app:srcCompat="@drawable/beauty" />
 
             <ImageView
                 android:id="@+id/imageView8"
                 android:layout_width="173dp"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/toys"
-                android:layout_margin="5dp"/>
+                android:layout_margin="5dp"
+                app:srcCompat="@drawable/toys" />
 
             <ImageView
                 android:id="@+id/imageView7"
                 android:layout_width="173dp"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/cloths"
-                android:layout_margin="5dp"/>
+                android:layout_margin="5dp"
+                app:srcCompat="@drawable/cloths" />
 
             <ImageView
                 android:id="@+id/imageView9"
                 android:layout_width="173dp"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/computer"
-                android:layout_margin="5dp"/>
+                android:layout_margin="5dp"
+                app:srcCompat="@drawable/computer" />
+
+            <fragment
+                android:id="@+id/nav_host_fragment_activity_user"
+                android:name="androidx.navigation.fragment.NavHostFragment"
+                android:layout_width="409dp"
+                android:layout_height="549dp"
+                app:defaultNavHost="true"
+                app:navGraph="@navigation/mobile_navigation" />
         </LinearLayout>
 
     </HorizontalScrollView>
 
-    <ImageButton
-        android:id="@+id/user"
-        android:layout_width="57dp"
-        android:layout_height="56dp"
-        android:layout_marginStart="86dp"
-        android:layout_marginBottom="48dp"
-        android:backgroundTint="#C1BDBD"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.94"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.01"
-        app:srcCompat="@drawable/ic_baseline_person_24" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

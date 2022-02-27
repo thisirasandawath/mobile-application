@@ -26,7 +26,6 @@ class SignUpActivity : AppCompatActivity() {
         email = findViewById(R.id.Email)
         pwd = findViewById(R.id.Password)
         cpwd = findViewById(R.id.cmPassword)
-        val buttonJoin: Button = findViewById(R.id.signup)
 
     }
     //checking if the input in form is valid
@@ -64,14 +63,22 @@ class SignUpActivity : AppCompatActivity() {
         return Patterns.EMAIL_ADDRESS.matcher(email).matches()
     }
     // Hook Click Event
-    fun performSignUp(v: View) {
+    fun performUserSignUp(v: View) {
         if (validateInput()) {
 
-            // Input is valid, here send data to your server
-            //val email = email!!.text.toString()
-            //val password = pwd!!.text.toString()
             Toast.makeText(this@SignUpActivity, "Login Success", Toast.LENGTH_SHORT).show()
             val intent = Intent(this, HomeActivity::class.java)
+            startActivity(intent)
+        }
+        else
+            Toast.makeText(this@SignUpActivity,"LOGIN UNSUCCESSFUL", Toast.LENGTH_LONG).show()
+    }
+
+    fun performSellerSignUp(v: View) {
+        if (validateInput()) {
+
+            Toast.makeText(this@SignUpActivity, "Login Success", Toast.LENGTH_SHORT).show()
+            val intent = Intent(this, UserActivity::class.java)
             startActivity(intent)
         }
         else
