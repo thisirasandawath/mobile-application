@@ -24,6 +24,14 @@
             android:name=".SignUpActivity"
             android:exported="false" />
         <activity
+            android:name=".CustomerDashboard"
+            android:exported="false"
+            android:label="Dashboard" />
+        <activity
+            android:name=".SellerDashboard"
+            android:exported="false"
+            android:label="Dashboard" />
+        <activity
             android:name=".FirstActivity"
             android:exported="true">
             <intent-filter>
