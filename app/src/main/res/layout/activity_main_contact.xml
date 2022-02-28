@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainContactActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="382dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="cursive"
+        android:text="Zee OFF"
+        android:textAlignment="center"
+        android:textColor="#CA1CC2"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.089" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="General Information"
+        android:textColor="#ffD700"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:text="Shop Name*"/>
+
+    <EditText
+        android:layout_width="373dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/text_button4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:text="Shop Address*"/>
+    <EditText
+        android:layout_width="373dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/text_button4"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:text="Product Category*"/>
+    <EditText
+        android:layout_width="373dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/text_button4"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:text="Website URL"/>
+    <EditText
+        android:layout_width="373dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/text_button4"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:text="Business Logo"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="176dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/two_button"
+            android:text="choose File" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="132dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/two_button"
+            android:text="Next" />
+    </LinearLayout>
+
+</LinearLayout>
