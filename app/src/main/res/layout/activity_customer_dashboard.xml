@@ -4,61 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD
-    tools:context=".CustomerDashboard">
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
-        android:text="User Profile"
-        android:textColor="#4E342E"
-=======
     android:background="@drawable/background"
     tools:context=".CustomerDashboard">
+
 
     <Button
         android:id="@+id/userprofile"
         android:layout_width="222dp"
         android:layout_height="102dp"
-        android:layout_marginTop="64dp"
-        android:text="User Profile"
+        android:layout_marginTop="44dp"
         android:backgroundTint="#9C3299"
->>>>>>> 2b8519896d8f69d8ea7e60b1922b566ca6b9bda2
+        android:text="User Profile"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-<<<<<<< HEAD
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Current Orders"
-        android:textColor="#4E342E"
-        app:iconTint="#170A0A"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="108dp"
-        android:text="Order History"
-        android:textColor="#4E342E"
-=======
-        android:id="@+id/currentorders"
         android:layout_width="222dp"
         android:layout_height="102dp"
-        android:text="Current Orders"
+        android:layout_marginTop="52dp"
         android:backgroundTint="#CF6ECC"
-        app:layout_constraintBottom_toTopOf="@+id/history"
+        android:text="Current Orders"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/userprofile" />
 
@@ -66,12 +36,11 @@
         android:id="@+id/history"
         android:layout_width="222dp"
         android:layout_height="102dp"
-        android:layout_marginBottom="108dp"
-        android:text="Order History"
+        android:layout_marginTop="52dp"
         android:backgroundTint="#9C3299"
->>>>>>> 2b8519896d8f69d8ea7e60b1922b566ca6b9bda2
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Order History"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 </androidx.constraintlayout.widget.ConstraintLayout>

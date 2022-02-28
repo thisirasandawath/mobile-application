@@ -90,13 +90,8 @@
 
     <TextView
         android:id="@+id/textView6"
-<<<<<<< HEAD
-        android:layout_width="106dp"
-        android:layout_height="29dp"
-=======
         android:layout_width="89dp"
         android:layout_height="30dp"
->>>>>>> 2b8519896d8f69d8ea7e60b1922b566ca6b9bda2
         android:layout_marginBottom="152dp"
         android:onClick="goToSignup"
         android:text="Sign Up"

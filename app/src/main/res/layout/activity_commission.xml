@@ -7,7 +7,9 @@
     tools:context=".CommissionActivity"
     android:orientation="vertical"
     android:background="@color/white">
+
     <TextView
+        android:id="@+id/rate"
         android:layout_width="227dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="80dp"
@@ -26,7 +28,7 @@
         android:text="Categories Rate"
         android:textColor="@color/black"
         android:textSize="20dp"/>
-    <LinearLayout
+    <EditText
         android:layout_width="373dp"
         android:layout_height="55dp"
         android:layout_marginLeft="20dp"
@@ -41,22 +43,24 @@
         android:text="Percentage"
         android:textColor="@color/black"
         android:textSize="20dp"/>
-    <LinearLayout
+    <EditText
         android:layout_width="373dp"
         android:layout_height="55dp"
         android:layout_marginLeft="20dp"
         android:background="@drawable/button2"
         android:layout_marginTop="10dp"/>
+
     <Button
+        android:id="@+id/join"
         android:layout_width="322dp"
         android:layout_height="50dp"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="50dp"
-        android:textSize="20dp"
-        android:textAlignment="center"
         android:background="@drawable/txt_bgs"
-        android:text="Join Now" />
+        android:text="Join Now"
+        android:textAlignment="center"
+        android:textSize="20dp" />
 
     <TextView
         android:layout_width="52dp"
@@ -87,19 +91,19 @@
         android:src="@drawable/btn_google__light_normal_web"/>
 
     <LinearLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="30dp"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="10dp"
-        android:fontFamily="sans-serif-black"
-        android:text="Already a member?"
-        android:textSize="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Already a member?"
+            android:textSize="15dp" />
 
         <Button
             android:layout_width="100dp"
@@ -109,7 +113,7 @@
             android:layout_marginRight="30dp"
             android:background="@drawable/two_button"
             android:text="Sign in" />
-</LinearLayout>
+    </LinearLayout>
 
 
 </LinearLayout>

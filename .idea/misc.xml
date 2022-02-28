@@ -13,32 +13,21 @@
         <entry key="..\:/MAD/First/app/src/main/res/font/itim.xml" value="0.20572916666666666" />
         <entry key="..\:/MAD/First/app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.11278447121820616" />
         <entry key="..\:/MAD/First/app/src/main/res/layout-w936dp/content_scrolling.xml" value="0.131640625" />
-        <entry key="..\:/MAD/First/app/src/main/res/layout/activity_commission.xml" value="0.17552083333333332" />
-<<<<<<< HEAD
-        <entry key="..\:/MAD/First/app/src/main/res/layout/activity_first.xml" value="0.25" />
-        <entry key="..\:/MAD/First/app/src/main/res/layout/activity_home.xml" value="0.25" />
-        <entry key="..\:/MAD/First/app/src/main/res/layout/activity_info.xml" value="0.165" />
-        <entry key="..\:/MAD/First/app/src/main/res/layout/activity_login.xml" value="0.25" />
-        <entry key="..\:/MAD/First/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/MAD/First/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
-        <entry key="..\:/MAD/First/app/src/main/res/layout/activity_user.xml" value="0.25" />
-        <entry key="..\:/MAD/First/app/src/main/res/layout/content_scrolling.xml" value="0.165" />
-        <entry key="..\:/MAD/First/app/src/main/res/layout/fragment_dashboard.xml" value="0.1" />
-        <entry key="..\:/MAD/First/app/src/main/res/layout/fragment_home.xml" value="0.1" />
-=======
+        <entry key="..\:/MAD/First/app/src/main/res/layout/activity_commission.xml" value="0.25" />
         <entry key="..\:/MAD/First/app/src/main/res/layout/activity_customer_dashboard.xml" value="0.25" />
         <entry key="..\:/MAD/First/app/src/main/res/layout/activity_first.xml" value="0.25" />
-        <entry key="..\:/MAD/First/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/MAD/First/app/src/main/res/layout/activity_general.xml" value="0.25" />
+        <entry key="..\:/MAD/First/app/src/main/res/layout/activity_home.xml" value="0.25" />
         <entry key="..\:/MAD/First/app/src/main/res/layout/activity_info.xml" value="0.165" />
-        <entry key="..\:/MAD/First/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/MAD/First/app/src/main/res/layout/activity_login.xml" value="0.2246376811594203" />
         <entry key="..\:/MAD/First/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/MAD/First/app/src/main/res/layout/activity_main_contact.xml" value="0.25" />
         <entry key="..\:/MAD/First/app/src/main/res/layout/activity_seller_dashboard.xml" value="0.25" />
         <entry key="..\:/MAD/First/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
         <entry key="..\:/MAD/First/app/src/main/res/layout/activity_user.xml" value="0.25" />
         <entry key="..\:/MAD/First/app/src/main/res/layout/content_scrolling.xml" value="0.165" />
         <entry key="..\:/MAD/First/app/src/main/res/layout/fragment_dashboard.xml" value="0.1583011583011583" />
         <entry key="..\:/MAD/First/app/src/main/res/layout/fragment_home.xml" value="0.1583011583011583" />
->>>>>>> 2b8519896d8f69d8ea7e60b1922b566ca6b9bda2
         <entry key="..\:/MAD/First/app/src/main/res/layout/fragment_notifications.xml" value="0.17552083333333332" />
         <entry key="..\:/MAD/First/app/src/main/res/layout/login.xml" value="0.23703703703703705" />
         <entry key="..\:/MAD/First/app/src/main/res/layout/settings_activity.xml" value="0.25" />
@@ -47,18 +36,6 @@
         <entry key="..\:/MAD/First/app/src/main/res/menu/menu_info.xml" value="0.335" />
         <entry key="..\:/MAD/First/app/src/main/res/xml/root_preferences.xml" value="0.25" />
         <entry key="..\:/MAD/First/app/src/release/res/xml/root_preferences.xml" value="0.17552083333333332" />
-<<<<<<< HEAD
-        <entry key="..\:/Users/Admin/Desktop/3rd year 1st sem/mobile-application-master/app/src/main/res/drawable/btn_google.xml" value="0.20102564102564102" />
-        <entry key="..\:/Users/Admin/Desktop/3rd year 1st sem/mobile-application-master/app/src/main/res/drawable/button2.xml" value="0.20102564102564102" />
-        <entry key="..\:/Users/Admin/Desktop/3rd year 1st sem/mobile-application-master/app/src/main/res/drawable/facebook2.xml" value="0.20102564102564102" />
-        <entry key="..\:/Users/Admin/Desktop/3rd year 1st sem/mobile-application-master/app/src/main/res/drawable/text_button4.xml" value="0.20102564102564102" />
-        <entry key="..\:/Users/Admin/Desktop/3rd year 1st sem/mobile-application-master/app/src/main/res/drawable/two_button.xml" value="0.20102564102564102" />
-        <entry key="..\:/Users/Admin/Desktop/3rd year 1st sem/mobile-application-master/app/src/main/res/drawable/txt_bgs.xml" value="0.20102564102564102" />
-        <entry key="..\:/Users/Admin/Desktop/3rd year 1st sem/mobile-application-master/app/src/main/res/layout/activity_commission.xml" value="0.18802083333333333" />
-        <entry key="..\:/Users/Admin/Desktop/3rd year 1st sem/mobile-application-master/app/src/main/res/layout/activity_general.xml" value="0.18802083333333333" />
-        <entry key="..\:/Users/Admin/Desktop/3rd year 1st sem/mobile-application-master/app/src/main/res/layout/activity_main_contact.xml" value="0.18802083333333333" />
-=======
->>>>>>> 2b8519896d8f69d8ea7e60b1922b566ca6b9bda2
         <entry key="..\:/Users/KETHAKA/Desktop/MAd1/mobile-application-master/app/src/main/res/layout/activity_customer_dashboard.xml" value="0.18385416666666668" />
         <entry key="..\:/Users/KETHAKA/Desktop/MAd1/mobile-application-master/app/src/main/res/layout/activity_seller_dashboard.xml" value="0.18385416666666668" />
       </map>

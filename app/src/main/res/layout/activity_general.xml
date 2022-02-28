@@ -29,7 +29,7 @@
         android:textColor="@color/black"
         android:text="Name on ID card*"/>
 
-    <LinearLayout
+    <EditText
         android:layout_width="373dp"
         android:layout_height="55dp"
         android:layout_marginLeft="10dp"
@@ -43,7 +43,7 @@
         android:fontFamily="sans-serif"
         android:textColor="@color/black"
         android:text="ID Card Number*"/>
-    <LinearLayout
+    <EditText
         android:layout_width="373dp"
         android:layout_height="55dp"
         android:layout_marginLeft="10dp"
@@ -58,7 +58,7 @@
         android:fontFamily="sans-serif"
         android:textColor="@color/black"
         android:text="Email Address"/>
-    <LinearLayout
+    <EditText
 
         android:layout_width="373dp"
         android:layout_height="55dp"
@@ -74,7 +74,7 @@
         android:textColor="@color/black"
         android:text="Mobile Number*"/>
 
-    <LinearLayout
+    <EditText
 
         android:layout_width="373dp"
         android:layout_height="55dp"

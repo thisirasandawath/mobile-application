@@ -56,11 +56,7 @@ class LoginActivity : AppCompatActivity() {
         if (validateInput()) {
 
             Toast.makeText(this@LoginActivity, "Login Success", Toast.LENGTH_SHORT).show()
-<<<<<<< HEAD
-            val intent = Intent(this, HomeActivity::class.java)
-=======
             val intent = Intent(this, CustomerDashboard::class.java)
->>>>>>> 2b8519896d8f69d8ea7e60b1922b566ca6b9bda2
             startActivity(intent)
         }
         else
@@ -71,11 +67,7 @@ class LoginActivity : AppCompatActivity() {
         if (validateInput()) {
 
             Toast.makeText(this@LoginActivity, "Login Success", Toast.LENGTH_SHORT).show()
-<<<<<<< HEAD
-            val intent = Intent(this, UserActivity::class.java)
-=======
             val intent = Intent(this, SellerDashboard::class.java)
->>>>>>> 2b8519896d8f69d8ea7e60b1922b566ca6b9bda2
             startActivity(intent)
         }
         else

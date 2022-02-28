@@ -4,63 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD
-    tools:context=".SellerDashboard">
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="76dp"
-        android:text="View Profile"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-=======
     android:background="@drawable/background"
     tools:context=".SellerDashboard">
+
 
     <Button
         android:id="@+id/view"
         android:layout_width="231dp"
         android:layout_height="86dp"
         android:layout_marginTop="36dp"
-        android:backgroundTint="#CF6ECC"
+        android:backgroundTint="#AA3FA7"
         android:text="View Profile"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
->>>>>>> 2b8519896d8f69d8ea7e60b1922b566ca6b9bda2
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/currentPromotion"
-<<<<<<< HEAD
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
-        android:text="Current Promotion"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
-
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
-        android:text="Promotion History"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-=======
         android:layout_width="231dp"
         android:layout_height="86dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="#BC78BA"
         android:text="Current Promotion"
-        android:backgroundTint="#9C3299"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view" />
+
 
     <Button
         android:id="@+id/history"
@@ -68,34 +38,21 @@
         android:layout_height="86dp"
         android:layout_marginTop="40dp"
         android:text="Promotion History"
-        android:backgroundTint="#CF6ECC"
+        android:backgroundTint="#AA3FA7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
->>>>>>> 2b8519896d8f69d8ea7e60b1922b566ca6b9bda2
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/currentPromotion" />
 
     <Button
-<<<<<<< HEAD
-        android:id="@+id/button7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
-        android:text="Add New Promotion"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button6" />
-=======
         android:id="@+id/add"
         android:layout_width="231dp"
         android:layout_height="86dp"
         android:layout_marginTop="40dp"
         android:text="Add New Promotion"
-        android:backgroundTint="#9C3299"
+        android:backgroundTint="#BC78BA"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/history" />
->>>>>>> 2b8519896d8f69d8ea7e60b1922b566ca6b9bda2
 </androidx.constraintlayout.widget.ConstraintLayout>

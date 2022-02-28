@@ -24,7 +24,7 @@ class SellerDashboard : AppCompatActivity() {
             startActivity(intent)
         }
         add.setOnClickListener {
-            val intent = Intent(this, CommissionActivity::class.java)
+            val intent = Intent(this, MainContactActivity::class.java)
             startActivity(intent)
         }
     }
