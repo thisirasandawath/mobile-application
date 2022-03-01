@@ -84,6 +84,7 @@
 
 
         <Button
+            android:id="@+id/Button_next"
             android:layout_width="132dp"
             android:layout_height="35dp"
             android:layout_marginLeft="210dp"
