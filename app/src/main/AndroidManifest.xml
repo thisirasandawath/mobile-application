@@ -10,12 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.First">
         <activity
+<<<<<<< HEAD
             android:name=".InfoActivity"
             android:exported="false" />
         <activity
             android:name=".CommissionActivity"
             android:exported="false" />
         <activity
+=======
+>>>>>>> 2b8519896d8f69d8ea7e60b1922b566ca6b9bda2
             android:name=".HomeActivity"
             android:exported="false"
             android:label="Home" />
@@ -30,6 +33,17 @@
             android:name=".SignUpActivity"
             android:exported="false" />
         <activity
+<<<<<<< HEAD
+=======
+            android:name=".CustomerDashboard"
+            android:exported="false"
+            android:label="Dashboard" />
+        <activity
+            android:name=".SellerDashboard"
+            android:exported="false"
+            android:label="Dashboard" />
+        <activity
+>>>>>>> 2b8519896d8f69d8ea7e60b1922b566ca6b9bda2
             android:name=".FirstActivity"
             android:exported="true">
             <intent-filter>
